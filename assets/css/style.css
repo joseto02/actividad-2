@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(93, 95, 93);
 }
 
 .carousel-item {
@@ -15,4 +15,23 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
     text-align: center;
+}
+
+.btn-custom {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3b2ad8;
+    color: white;
+    padding: 15px 15px;
+    border: 100px #000000;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
